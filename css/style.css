@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "Sansation-bold-italic";
+  font-style: italic;
+  font-weight: bold;
+  src: url(/fonts/sansation/Sansation_Bold_Italic.ttf);
+}
+@font-face {
+  font-family: "Sansation-light-italic";
+  font-style: italic;
+  font-weight: lighter;
+  src: url(/fonts/sansation/Sansation_Light_Italic.ttf);
+}
+/* Color Theme Swatches in Hex */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #020659;
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: #010440;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+header .menu {
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+}
+header .menu ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+header .menu ul a {
+  text-decoration: none;
+  color: white;
+  font-family: "Sansation-bold-italic";
+}
+
+main .principal {
+  display: grid;
+  grid-template-areas: "social text img";
+  grid-template-columns: 5% 1fr 1fr;
+  box-sizing: border-box;
+  height: calc(100vh - 80px);
+  padding: 40px;
+  gap: 10px;
+}
+main .principal .name {
+  grid-area: text;
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+main .principal .name h2 {
+  font-family: "Sansation-bold-italic";
+  color: #F2D544;
+}
+main .principal .name h1 {
+  font-family: "Sansation-light-italic";
+  font-size: 5rem;
+  color: #F2D544;
+}
+main .principal .social {
+  grid-area: social;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+main .principal .social .logos {
+  border-radius: 50%;
+}
+main .principal .social .logos span {
+  color: white;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .principal .img {
+  grid-area: img;
+  background-image: radial-gradient(#02065900, #02065900, #020659, #020659), url(/img/1647456712718.jpg);
+  background-size: cover;
+  background-position: 50% center;
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,97 @@
+@import "variavel.scss";
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: $azul1;
+}
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: $azul-escuro;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    & .menu{
+        display: flex;
+        align-items: center;
+        margin-right: 100px;
+        & ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            gap: 35px;
+            & a{
+                text-decoration: none;
+                color: white;
+                font-family: $font-bold-italic;
+                
+            }
+        }
+    }
+    
+}
+main{
+    & .principal{
+        display: grid;
+        grid-template-areas: 
+        "social text img";
+        grid-template-columns: 5% 1fr 1fr;
+        box-sizing: border-box;
+        height: calc(100vh - 80px);
+        padding: 40px;
+        gap: 10px;
+        & .name{
+            grid-area: text;
+            display: flex;
+            flex-direction: column;
+            align-self: end;
+            padding-bottom: 50px;
+            padding-left: 50px;
+            & h2{
+                font-family: $font-bold-italic;
+                color: $amarelo;
+           }
+           & h1{
+               font-family: $font-light-italic;
+               font-size: 5rem;
+               color: $amarelo;
+           }
+        }
+        & .social{
+            grid-area: social;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 30px;
+            & .logos{
+                border-radius: 50%;
+                & span{
+                    color: white;
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 50%;
+                    background-color: black;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        & .img{
+            grid-area: img;
+            background-image: radial-gradient(#02065900, #02065900, #020659, #020659), url(/img/1647456712718.jpg);
+            background-size: cover;
+            background-position: 50% center;
+            border-radius: 10px;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+ }
