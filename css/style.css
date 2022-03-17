@@ -10,6 +10,10 @@
   font-weight: lighter;
   src: url(/fonts/sansation/Sansation_Light_Italic.ttf);
 }
+@font-face {
+  font-family: "Sansation-regular";
+  src: url(/fonts/sansation/Sansation_Regular.ttf);
+}
 /* Color Theme Swatches in Hex */
 * {
   padding: 0;
@@ -17,7 +21,10 @@
 }
 
 body {
-  background-color: #020659;
+  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
@@ -25,7 +32,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: end;
-  background-color: #010440;
+  background-color: transparent;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -40,16 +47,20 @@ header .menu ul {
   flex-direction: row;
   gap: 35px;
 }
-header .menu ul a {
+header .menu ul li a {
   text-decoration: none;
-  color: white;
+  color: #F2D544;
   font-family: "Sansation-bold-italic";
+  text-transform: uppercase;
+}
+header .menu ul li a:hover {
+  animation: opacidade 3s infinite;
 }
 
 main .principal {
   display: grid;
-  grid-template-areas: "social text img";
-  grid-template-columns: 5% 1fr 1fr;
+  grid-template-areas: "social text";
+  grid-template-columns: 5% 1fr;
   box-sizing: border-box;
   height: calc(100vh - 80px);
   padding: 40px;
@@ -60,7 +71,7 @@ main .principal .name {
   display: flex;
   flex-direction: column;
   align-self: end;
-  padding-bottom: 50px;
+  padding-bottom: 100px;
   padding-left: 50px;
 }
 main .principal .name h2 {
@@ -83,25 +94,110 @@ main .principal .social .logos {
   border-radius: 50%;
 }
 main .principal .social .logos span {
-  color: white;
+  color: black;
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-color: black;
+  background-color: #F2D544;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-main .principal .img {
-  grid-area: img;
-  background-image: radial-gradient(#02065900, #02065900, #020659, #020659), url(/img/1647456712718.jpg);
-  background-size: cover;
-  background-position: 50% center;
+main .principal .social .logos span:hover {
+  animation: corBackground 3s infinite;
+}
+main .sobre {
   border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+}
+main .sobre h1 {
+  padding-bottom: 10px;
+  color: black;
+  text-indent: 10px;
+  text-transform: uppercase;
+  font-family: "Sansation-bold-italic";
+  border-bottom: 2px solid #F2D544;
+}
+main .sobre p {
+  color: black;
+  padding: 20px 0px;
+  text-indent: 30px;
+  word-spacing: 9px;
+  line-height: 30px;
+  font-family: "Sansation-regular";
+}
+main .tech {
+  background-image: url(/img/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px;
+  color: #F2D544;
+  font-family: "Sansation-bold-italic";
+}
+main .tech h1 {
+  padding-bottom: 10px;
+  color: #F2D544;
+  text-indent: 10px;
+  text-transform: uppercase;
+  font-family: "Sansation-bold-italic";
+  border-bottom: 2px solid #F2D544;
+}
+main .tech .box {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-areas: "html css" "js sass";
+  grid-template-columns: 50% 50%;
+  grid-row: 1fr 1fr;
+}
+main .tech .box .box__tech {
+  padding: 30px;
   display: flex;
-  justify-content: center;
+  flex-direction: row;
   align-items: center;
+}
+main .tech .box .box__tech img {
+  width: 100px;
+  padding-right: 20px;
+}
+main .tech .box .html {
+  grid-area: html;
+  margin-top: 50px;
+}
+main .tech .box .css {
+  margin-top: 50px;
+  grid-area: css;
+  border-left: 2px solid black;
+}
+main .tech .box .js {
+  grid-area: js;
+}
+main .tech .box .sass {
+  grid-area: sass;
+  border-left: 2px solid black;
+}
+
+@keyframes corBackground {
+  50% {
+    background-color: #f2d54454;
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+@keyframes opacidade {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

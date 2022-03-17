@@ -10,8 +10,13 @@
     font-weight: lighter;
     src: url(/fonts/sansation/Sansation_Light_Italic.ttf);
 }
+@font-face {
+    font-family: 'Sansation-regular';
+    src: url(/fonts/sansation/Sansation_Regular.ttf);
+}
 $font-bold-italic:'Sansation-bold-italic';
 $font-light-italic: 'Sansation-light-italic';
+$font-regular: 'Sansation-regular';
 
 /* Color Theme Swatches in Hex */
 $rosa: #F241A3;
