@@ -259,7 +259,7 @@ main{
                 }
             }
             & #frente{
-                background-image: url(./img/setaavancar.png);
+                background-image: url('/img/setaavancar.png');
                 &:hover{
                     animation: irFrente 4s infinite;
                 }
