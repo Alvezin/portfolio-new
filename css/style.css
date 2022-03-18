@@ -2,26 +2,26 @@
   font-family: "Sansation-bold-italic";
   font-style: italic;
   font-weight: bold;
-  src: url(/fonts/Sansation_Bold_Italic.ttf);
+  src: url(/fonts/Sansation-Bold-Italic.ttf);
 }
 @font-face {
   font-family: "Sansation-light-italic";
   font-style: italic;
   font-weight: lighter;
-  src: url(/fonts/Sansation_Light_Italic.ttf);
+  src: url(/fonts/Sansation-Light-Italic.ttf);
 }
 @font-face {
   font-family: "Sansation-regular";
-  src: url(/fonts/Sansation_Regular.ttf);
+  src: url(/fonts/Sansation-Regular.ttf);
 }
-
+/* Color Theme Swatches in Hex */
 * {
   padding: 0;
   margin: 0;
 }
 
 body {
-  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+  background-image: url(/img/cafeelivro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -128,7 +128,7 @@ main .sobre p {
   font-family: "Sansation-regular";
 }
 main .tech {
-  background-image: url(/img/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg);
+  background-image: url(/img/pc-livro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -252,13 +252,13 @@ main .projeto .box-projeto input:hover {
   background-color: #e6e600;
 }
 main .projeto .box-projeto #frente {
-  background-image: url(/img/forwardarrow_haciaadelante_4836.png);
+  background-image: url(/img/setaavancar.png);
 }
 main .projeto .box-projeto #frente:hover {
   animation: irFrente 4s infinite;
 }
 main .projeto .box-projeto #voltar {
-  background-image: url(/img/back_arrow_5821.png);
+  background-image: url(/img/setavoltar.png);
 }
 main .projeto .box-projeto #voltar:hover {
   animation: voltar 4s infinite;
