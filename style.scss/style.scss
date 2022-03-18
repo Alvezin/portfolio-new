@@ -102,7 +102,7 @@ main{
         padding: 20px;
         & h1{
             padding-bottom: 10px;
-            color: black;
+            color: $azul-escuro;
             text-indent: 10px;
             text-transform: uppercase;
             font-family: $font-bold-italic;
@@ -189,7 +189,7 @@ main{
             text-indent: 10px;
             text-transform: uppercase;
             font-family: $font-bold-italic;
-            border-bottom: 2px solid $azul-escuro;
+            border-bottom: 2px solid $amarelo;
         }
         & .caixa-icones{
             margin: 10px 0;
@@ -310,6 +310,80 @@ main{
         }
     }
  }
+footer{
+    background-color: black;
+    color: $amarelo;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $font-light-italic;
+    font-size: .5rem
+}
+
+@media screen and (max-width:887px) {
+    main{
+        & .tech{
+            & .box{
+                grid-template-areas: 
+                "html html"
+                "css css"
+                "js js"
+                "sass sass";
+                & .sass{
+                    border-left: none;
+                }
+                & .css{
+                    border-left: none;
+                }
+            }
+            & h2{
+                font-size: 1.1rem;
+            }
+        }
+    }
+    
+}
+
+@media screen and (max-width:657px) {
+    main{
+        & .principal{
+            & .social{
+                justify-content: flex-start
+            }
+            & .name{
+                padding-left: 8px;
+                & h1{
+                    font-size: 4rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:509px) {
+    header{
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        & .menu{
+            margin: 0;
+        }
+    }
+    main{
+        & .principal{
+            & .social{
+                justify-content: flex-start
+            }
+            & .name{
+                padding-left: 8px;
+                & h1{
+                    font-size: 3.5rem;
+                }
+            }
+        }
+    }
+}
 
  @keyframes corBackground{
      50%{
@@ -348,7 +422,7 @@ main{
      }
  }
  
-@keyframes slide{
+@keyframes slide{ 
     from{
         opacity: 0;
         transform: translateY(-20px);
