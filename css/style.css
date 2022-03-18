@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("/img/cafeelivro.jpg");
+  background-image: url("/image/cafeelivro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -113,7 +113,7 @@ main .sobre p {
   font-family: "Zen Maru Gothic", "sans-serif";
 }
 main .tech {
-  background-image: url("/img/pc-livro.jpg");
+  background-image: url("/image/pc-livro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -237,13 +237,13 @@ main .projeto .box-projeto input:hover {
   background-color: #e6e600;
 }
 main .projeto .box-projeto #frente {
-  background-image: url("/img/setaavancar.png");
+  background-image: url("/image/setaavancar.png");
 }
 main .projeto .box-projeto #frente:hover {
   animation: irFrente 4s infinite;
 }
 main .projeto .box-projeto #voltar {
-  background-image: url("/img/setavoltar.png");
+  background-image: url("/image/setavoltar.png");
 }
 main .projeto .box-projeto #voltar:hover {
   animation: voltar 4s infinite;
