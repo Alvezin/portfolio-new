@@ -1,19 +1,4 @@
-@font-face {
-  font-family: "Sansation-bold-italic";
-  font-style: italic;
-  font-weight: bold;
-  src: url(/fonts/Sansation-Bold-Italic.ttf);
-}
-@font-face {
-  font-family: "Sansation-light-italic";
-  font-style: italic;
-  font-weight: lighter;
-  src: url(/fonts/Sansation-Light-Italic.ttf);
-}
-@font-face {
-  font-family: "Sansation-regular";
-  src: url(/fonts/Sansation-Regular.ttf);
-}
+@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap");
 /* Color Theme Swatches in Hex */
 * {
   padding: 0;
@@ -50,7 +35,7 @@ header .menu ul {
 header .menu ul li a {
   text-decoration: none;
   color: #F2D544;
-  font-family: "Sansation-bold-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   text-transform: uppercase;
 }
 header .menu ul li a:hover {
@@ -75,11 +60,11 @@ main .principal .name {
   padding-left: 50px;
 }
 main .principal .name h2 {
-  font-family: "Sansation-bold-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   color: #F2D544;
 }
 main .principal .name h1 {
-  font-family: "Sansation-light-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   font-size: 5rem;
   color: #F2D544;
 }
@@ -116,7 +101,7 @@ main .sobre h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "Sansation-bold-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .sobre p {
@@ -125,7 +110,7 @@ main .sobre p {
   text-indent: 30px;
   word-spacing: 9px;
   line-height: 30px;
-  font-family: "Sansation-regular";
+  font-family: "Zen Maru Gothic", "sans-serif";
 }
 main .tech {
   background-image: url(/img/pc-livro.jpg);
@@ -134,14 +119,14 @@ main .tech {
   background-attachment: fixed;
   padding: 20px;
   color: #F2D544;
-  font-family: "Sansation-bold-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
 }
 main .tech h1 {
   padding-bottom: 10px;
   color: #F2D544;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "Sansation-bold-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .tech h2 {
@@ -182,7 +167,7 @@ main .tech .box .sass {
   border-left: 2px solid black;
 }
 main .projeto {
-  font-family: "Sansation-bold-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   box-sizing: border-box;
   padding: 10px;
   background-color: whitesmoke;
@@ -194,7 +179,7 @@ main .projeto h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "Sansation-bold-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .projeto .caixa-icones {
@@ -319,7 +304,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "Sansation-light-italic";
+  font-family: "Zen Maru Gothic", "sans-serif";
   font-size: 0.5rem;
 }
 

@@ -1,22 +1,8 @@
-@font-face {
-    font-family: 'Sansation-bold-italic';
-    font-style: italic;
-    font-weight: bold;
-    src: url(/fonts/Sansation_Bold_Italic.ttf);
-}
-@font-face {
-    font-family: 'Sansation-light-italic';
-    font-style: italic;
-    font-weight: lighter;
-    src: url(/fonts/Sansation_Light_Italic.ttf);
-}
-@font-face {
-    font-family: 'Sansation-regular';
-    src: url(/fonts/Sansation_Regular.ttf);
-}
-$font-bold-italic:'Sansation-bold-italic';
-$font-light-italic: 'Sansation-light-italic';
-$font-regular: 'Sansation-regular';
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap');
+
+$font-bold-italic:'Zen Maru Gothic', 'sans-serif';
+$font-light-italic: 'Zen Maru Gothic', 'sans-serif';
+$font-regular: 'Zen Maru Gothic', 'sans-serif';
 
 /* Color Theme Swatches in Hex */
 $rosa: #F241A3;
@@ -32,7 +18,7 @@ $amarelo: #F2D544;
 }
 body{
     //background-color: $azul1;
-    background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+    background-image: url(/img/cafeelivro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -144,7 +130,7 @@ main{
         }
     }
     & .tech{
-        background-image: url(/img/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg);
+        background-image: url(/img/pc-livro.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -273,13 +259,13 @@ main{
                 }
             }
             & #frente{
-                background-image: url(/img/forwardarrow_haciaadelante_4836.png);
+                background-image: url(/img/setaavancar.png);
                 &:hover{
                     animation: irFrente 4s infinite;
                 }
             }
             & #voltar{
-                background-image: url(/img/back_arrow_5821.png);
+                background-image: url(/img/setavoltar.png);
                 &:hover{
                     animation: voltar 4s infinite;
                 }
