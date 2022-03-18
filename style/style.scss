@@ -18,7 +18,7 @@ $amarelo: #F2D544;
 }
 body{
     //background-color: $azul1;
-    background-image: url(/img/cafeelivro.jpg);
+    background-image: url(./img/cafeelivro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -130,7 +130,7 @@ main{
         }
     }
     & .tech{
-        background-image: url(/img/pc-livro.jpg);
+        background-image: url(./img/pc-livro.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment: fixed;
@@ -259,13 +259,13 @@ main{
                 }
             }
             & #frente{
-                background-image: url(/img/setaavancar.png);
+                background-image: url(./img/setaavancar.png);
                 &:hover{
                     animation: irFrente 4s infinite;
                 }
             }
             & #voltar{
-                background-image: url(/img/setavoltar.png);
+                background-image: url(./img/setavoltar.png);
                 &:hover{
                     animation: voltar 4s infinite;
                 }
