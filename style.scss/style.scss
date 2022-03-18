@@ -191,20 +191,39 @@ main{
             font-family: $font-bold-italic;
             border-bottom: 2px solid $azul-escuro;
         }
+        & .caixa-icones{
+            margin: 10px 0;
+            
+            & .html{
+                color: orange;
+            }
+            & .css{
+                color: rgb(62, 62, 250);
+            }
+            & .js{
+                color: $amarelo;
+            }
+            & .sass{
+                color: $rosa;
+            }
+        }
         & .box-projeto{
             display: flex;
             justify-content: center;
             align-items: center;
             height: 90%;
             & .container{
+                margin-top: 30px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 background-color: $azul-escuro;
-                height: 90%;
+                height: 1fr;
+                padding: 10px;
                 width: 70%;
                 border-radius: 10px;
                 border: 1px solid $azul1;
+                box-shadow: 0 0 8px black;
                 & img{
                     width: 80%;
                     margin: 20px;
@@ -244,6 +263,8 @@ main{
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+                animation-name: slide;
+                animation-duration: 1s;
                 & h2{
                     color: $amarelo;
                     margin-top: 10px;
@@ -327,3 +348,12 @@ main{
      }
  }
  
+@keyframes slide{
+    from{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to{
+        opacity: 1;
+    }
+}

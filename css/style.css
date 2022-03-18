@@ -197,6 +197,21 @@ main .projeto h1 {
   font-family: "Sansation-bold-italic";
   border-bottom: 2px solid #010440;
 }
+main .projeto .caixa-icones {
+  margin: 10px 0;
+}
+main .projeto .caixa-icones .html {
+  color: orange;
+}
+main .projeto .caixa-icones .css {
+  color: #3e3efa;
+}
+main .projeto .caixa-icones .js {
+  color: #F2D544;
+}
+main .projeto .caixa-icones .sass {
+  color: #F241A3;
+}
 main .projeto .box-projeto {
   display: flex;
   justify-content: center;
@@ -204,14 +219,17 @@ main .projeto .box-projeto {
   height: 90%;
 }
 main .projeto .box-projeto .container {
+  margin-top: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: #010440;
-  height: 90%;
+  height: 1fr;
+  padding: 10px;
   width: 70%;
   border-radius: 10px;
   border: 1px solid #020659;
+  box-shadow: 0 0 8px black;
 }
 main .projeto .box-projeto .container img {
   width: 80%;
@@ -250,6 +268,8 @@ main .projeto .box-projeto .box {
   display: flex;
   flex-direction: column;
   align-items: center;
+  animation-name: slide;
+  animation-duration: 1s;
 }
 main .projeto .box-projeto .box h2 {
   color: #F2D544;
@@ -320,6 +340,15 @@ main .projeto .box-projeto .container4.active {
 @keyframes voltar {
   50% {
     transform: translate(-10px, 0);
+  }
+}
+@keyframes slide {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
   }
 }
 
