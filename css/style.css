@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(/img/tentativa.jpg);
+  background-image: url("/img/cafeelivro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -243,7 +243,7 @@ main .projeto .box-projeto #frente:hover {
   animation: irFrente 4s infinite;
 }
 main .projeto .box-projeto #voltar {
-  background-image: url(./img/setavoltar.png);
+  background-image: url("/img/setavoltar.png");
 }
 main .projeto .box-projeto #voltar:hover {
   animation: voltar 4s infinite;
