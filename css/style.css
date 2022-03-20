@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 @import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap");
+=======
+@font-face {
+  font-family: "Sansation-bold-italic";
+  font-style: italic;
+  font-weight: bold;
+  src: url(/fonts/sansation/Sansation_Bold_Italic.ttf);
+}
+@font-face {
+  font-family: "Sansation-light-italic";
+  font-style: italic;
+  font-weight: lighter;
+  src: url(/fonts/sansation/Sansation_Light_Italic.ttf);
+}
+@font-face {
+  font-family: "Sansation-regular";
+  src: url(/fonts/sansation/Sansation_Regular.ttf);
+}
+>>>>>>> parent of 758e617 (comprimir arquivo)
 /* Color Theme Swatches in Hex */
 * {
   padding: 0;
@@ -6,7 +25,11 @@
 }
 
 body {
+<<<<<<< HEAD
   background-image: url("/image/cafeelivro.jpg");
+=======
+  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
+>>>>>>> parent of 758e617 (comprimir arquivo)
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -35,7 +58,11 @@ header .menu ul {
 header .menu ul li a {
   text-decoration: none;
   color: #F2D544;
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-bold-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
   text-transform: uppercase;
 }
 header .menu ul li a:hover {
@@ -60,11 +87,19 @@ main .principal .name {
   padding-left: 50px;
 }
 main .principal .name h2 {
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
   color: #F2D544;
 }
 main .principal .name h1 {
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-bold-italic";
+  color: #F2D544;
+}
+main .principal .name h1 {
+  font-family: "Sansation-light-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
   font-size: 5rem;
   color: #F2D544;
 }
@@ -101,7 +136,11 @@ main .sobre h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-bold-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
   border-bottom: 2px solid #F2D544;
 }
 main .sobre p {
@@ -110,23 +149,38 @@ main .sobre p {
   text-indent: 30px;
   word-spacing: 9px;
   line-height: 30px;
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
 }
 main .tech {
   background-image: url("/image/pc-livro.jpg");
+=======
+  font-family: "Sansation-regular";
+}
+main .tech {
+  background-image: url(/img/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg);
+>>>>>>> parent of 758e617 (comprimir arquivo)
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 20px;
   color: #F2D544;
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-bold-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
 }
 main .tech h1 {
   padding-bottom: 10px;
   color: #F2D544;
   text-indent: 10px;
   text-transform: uppercase;
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-bold-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
   border-bottom: 2px solid #F2D544;
 }
 main .tech h2 {
@@ -167,7 +221,11 @@ main .tech .box .sass {
   border-left: 2px solid black;
 }
 main .projeto {
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-bold-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
   box-sizing: border-box;
   padding: 10px;
   background-color: whitesmoke;
@@ -179,7 +237,11 @@ main .projeto h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-bold-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
   border-bottom: 2px solid #F2D544;
 }
 main .projeto .caixa-icones {
@@ -237,13 +299,21 @@ main .projeto .box-projeto input:hover {
   background-color: #e6e600;
 }
 main .projeto .box-projeto #frente {
+<<<<<<< HEAD
   background-image: url("/image/setaavancar.png");
+=======
+  background-image: url(/img/forwardarrow_haciaadelante_4836.png);
+>>>>>>> parent of 758e617 (comprimir arquivo)
 }
 main .projeto .box-projeto #frente:hover {
   animation: irFrente 4s infinite;
 }
 main .projeto .box-projeto #voltar {
+<<<<<<< HEAD
   background-image: url("/image/setavoltar.png");
+=======
+  background-image: url(/img/back_arrow_5821.png);
+>>>>>>> parent of 758e617 (comprimir arquivo)
 }
 main .projeto .box-projeto #voltar:hover {
   animation: voltar 4s infinite;
@@ -304,7 +374,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+<<<<<<< HEAD
   font-family: "Zen Maru Gothic", "sans-serif";
+=======
+  font-family: "Sansation-light-italic";
+>>>>>>> parent of 758e617 (comprimir arquivo)
   font-size: 0.5rem;
 }
 
