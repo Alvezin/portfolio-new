@@ -286,9 +286,6 @@ footer {
   main .principal .social {
     justify-content: flex-start;
   }
-  main .principal .name {
-    padding-left: 8px;
-  }
   main .principal .name h1 {
     font-size: 4rem;
   }
@@ -303,11 +300,11 @@ footer {
     margin: 0;
   }
 
+  main .principal {
+    grid-template-columns: 30px 1fr;
+  }
   main .principal .social {
     justify-content: flex-start;
-  }
-  main .principal .name {
-    padding-left: 8px;
   }
   main .principal .name h1 {
     font-size: 3.5rem;

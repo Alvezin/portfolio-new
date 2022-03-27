@@ -295,10 +295,9 @@ footer{
     main{
         & .principal{
             & .social{
-                justify-content: flex-start
+                justify-content: flex-start;
             }
             & .name{
-                padding-left: 8px;
                 & h1{
                     font-size: 4rem;
                 }
@@ -318,17 +317,22 @@ footer{
     }
     main{
         & .principal{
+            grid-template-columns: 30px 1fr;
             & .social{
-                justify-content: flex-start
+                justify-content: flex-start;
+                
             }
             & .name{
-                padding-left: 8px;
                 & h1{
                     font-size: 3.5rem;
                 }
             }
         }
     }
+}
+
+@media screen and (max-width: 460px) {
+    
 }
 
  @keyframes corBackground{
