@@ -1,47 +1,20 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-@import url("https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@300;400&display=swap");
-=======
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
 @font-face {
-  font-family: "Sansation-bold-italic";
-  font-style: italic;
+  font-family: "sansation-bold-italic";
+  src: url(../sansation/Sansation_Bold_Italic.ttf);
   font-weight: bold;
-  src: url(/fonts/sansation/Sansation_Bold_Italic.ttf);
-}
-@font-face {
-  font-family: "Sansation-light-italic";
   font-style: italic;
-  font-weight: lighter;
-  src: url(/fonts/sansation/Sansation_Light_Italic.ttf);
 }
 @font-face {
-  font-family: "Sansation-regular";
-  src: url(/fonts/sansation/Sansation_Regular.ttf);
+  font-family: "sansation-light-italic";
+  src: url(../sansation/Sansation_Light_Italic.ttf);
+  font-weight: lighter;
+  font-style: italic;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
+@font-face {
+  font-family: "sansation-regular";
+  src: url(../sansation/Sansation_Regular.ttf);
+  font-weight: normal;
+}
 /* Color Theme Swatches in Hex */
 * {
   padding: 0;
@@ -49,27 +22,7 @@
 }
 
 body {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-image: url("/image/cafeelivro.jpg");
-=======
-  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/mohammad-rahmani-1bNQVGzuy0U-unsplash.jpg);
->>>>>>> parent of 758e617 (comprimir arquivo)
+  background-image: url("../image/cafeelivro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -98,27 +51,7 @@ header .menu ul {
 header .menu ul li a {
   text-decoration: none;
   color: #F2D544;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-bold-italic", "sans-serif";
   text-transform: uppercase;
 }
 header .menu ul li a:hover {
@@ -143,43 +76,11 @@ main .principal .name {
   padding-left: 50px;
 }
 main .principal .name h2 {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
+  font-family: "sansation-bold-italic", "sans-serif";
   color: #F2D544;
 }
 main .principal .name h1 {
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-  font-family: "Sansation-bold-italic";
-  color: #F2D544;
-}
-main .principal .name h1 {
-  font-family: "Sansation-light-italic";
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-light-italic", "sans-serif";
   font-size: 5rem;
   color: #F2D544;
 }
@@ -216,27 +117,7 @@ main .sobre h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-bold-italic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .sobre p {
@@ -245,94 +126,23 @@ main .sobre p {
   text-indent: 30px;
   word-spacing: 9px;
   line-height: 30px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
+  font-family: "sansation-regular", "sans-serif";
 }
 main .tech {
-  background-image: url("/image/pc-livro.jpg");
-=======
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-  font-family: "Sansation-regular";
-}
-main .tech {
-  background-image: url(/img/ehud-neuhaus-esCc1qx6TVw-unsplash.jpg);
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
->>>>>>> parent of 758e617 (comprimir arquivo)
+  background-image: url("../image/pc-livro.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   padding: 20px;
   color: #F2D544;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-bold-italic", "sans-serif";
 }
 main .tech h1 {
   padding-bottom: 10px;
   color: #F2D544;
   text-indent: 10px;
   text-transform: uppercase;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-bold-italic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .tech h2 {
@@ -340,11 +150,15 @@ main .tech h2 {
 }
 main .tech .box {
   width: 80%;
-  margin: auto;
+  margin: 20px auto;
   display: grid;
   grid-template-areas: "html css" "js sass";
   grid-template-columns: 50% 50%;
   grid-row: 1fr 1fr;
+  background-color: rgba(0, 0, 0, 0.39);
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 10px;
 }
 main .tech .box .box__tech {
   padding: 30px;
@@ -358,10 +172,8 @@ main .tech .box .box__tech img {
 }
 main .tech .box .html {
   grid-area: html;
-  margin-top: 50px;
 }
 main .tech .box .css {
-  margin-top: 50px;
   grid-area: css;
   border-left: 2px solid black;
 }
@@ -373,59 +185,18 @@ main .tech .box .sass {
   border-left: 2px solid black;
 }
 main .projeto {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-bold-italic", "sans-serif";
   box-sizing: border-box;
   padding: 10px;
   background-color: whitesmoke;
   border-radius: 8px;
-  height: 100vh;
 }
 main .projeto h1 {
   padding-bottom: 10px;
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-bold-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-bold-italic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .projeto .caixa-icones {
@@ -451,90 +222,29 @@ main .projeto .box-projeto {
 }
 main .projeto .box-projeto .container {
   margin-top: 30px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #010440;
   height: 1fr;
   padding: 10px;
   width: 70%;
-  border-radius: 10px;
-  border: 1px solid #020659;
-  box-shadow: 0 0 8px black;
+}
+main .projeto .box-projeto .container a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-bottom: 30px;
 }
 main .projeto .box-projeto .container img {
   width: 80%;
-  margin: 20px;
   border-radius: 8px;
 }
-main .projeto .box-projeto input {
-  width: 40px;
-  height: 40px;
-  margin: 10px;
-  background-color: #F2D544;
-  border-radius: 50%;
-  border: 1px solid yellow;
-  background-size: 20px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  cursor: pointer;
-}
-main .projeto .box-projeto input:hover {
-  background-color: #e6e600;
-}
-main .projeto .box-projeto #frente {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-image: url("/image/setaavancar.png");
-=======
-  background-image: url(/img/forwardarrow_haciaadelante_4836.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/forwardarrow_haciaadelante_4836.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/forwardarrow_haciaadelante_4836.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/forwardarrow_haciaadelante_4836.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/forwardarrow_haciaadelante_4836.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-}
-main .projeto .box-projeto #frente:hover {
-  animation: irFrente 4s infinite;
-}
-main .projeto .box-projeto #voltar {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background-image: url("/image/setavoltar.png");
-=======
-  background-image: url(/img/back_arrow_5821.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/back_arrow_5821.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/back_arrow_5821.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/back_arrow_5821.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  background-image: url(/img/back_arrow_5821.png);
->>>>>>> parent of 758e617 (comprimir arquivo)
-}
-main .projeto .box-projeto #voltar:hover {
-  animation: voltar 4s infinite;
+main .projeto .box-projeto .container img:hover {
+  animation: opacidade 2s infinite;
 }
 main .projeto .box-projeto .box {
+  background-color: #010440;
+  margin: 20px auto;
+  border-radius: 10px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -546,42 +256,6 @@ main .projeto .box-projeto .box h2 {
   color: #F2D544;
   margin-top: 10px;
 }
-main .projeto .box-projeto .box a {
-  color: #F2D544;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px;
-  border-bottom: 1px solid #F241A3;
-}
-main .projeto .box-projeto .box a:hover {
-  border-bottom: 2px solid #F241A3;
-  transition: 0.1s;
-  animation: opacidade 1s infinite;
-}
-main .projeto .box-projeto .container1 {
-  display: none;
-}
-main .projeto .box-projeto .container1.active {
-  display: flex;
-}
-main .projeto .box-projeto .container2 {
-  display: none;
-}
-main .projeto .box-projeto .container2.active {
-  display: flex;
-}
-main .projeto .box-projeto .container3 {
-  display: none;
-}
-main .projeto .box-projeto .container3.active {
-  display: flex;
-}
-main .projeto .box-projeto .container4 {
-  display: none;
-}
-main .projeto .box-projeto .container4.active {
-  display: flex;
-}
 
 footer {
   background-color: black;
@@ -590,27 +264,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-  font-family: "Zen Maru Gothic", "sans-serif";
-=======
-  font-family: "Sansation-light-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-light-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-light-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-light-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
-=======
-  font-family: "Sansation-light-italic";
->>>>>>> parent of 758e617 (comprimir arquivo)
+  font-family: "sansation-light-italic", "sans-serif";
   font-size: 0.5rem;
 }
 

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'sansation-bold-italic';
+    src: url(../sansation/Sansation_Bold_Italic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'sansation-light-italic';
+    src: url(../sansation/Sansation_Light_Italic.ttf);
+    font-weight: lighter;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'sansation-regular';
+    src: url(../sansation/Sansation_Regular.ttf);
+    font-weight: normal;
+}
+
+
+
+$font-bold-italic: 'sansation-bold-italic', 'sans-serif';
+$font-light-italic: 'sansation-light-italic', 'sans-serif';
+$font-regular: 'sansation-regular', 'sans-serif';
+
+/* Color Theme Swatches in Hex */
+$rosa: #F241A3;
+$rosa-claro: #EF27F2;
+$azul1: #020659;
+$azul-escuro: #010440;
+$amarelo: #F2D544;

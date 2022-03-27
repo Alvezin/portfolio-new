@@ -1,4 +1,4 @@
-
+/*
 const btnAvanco = document.getElementById('frente');
 const btnVoltar = document.getElementById('voltar');
 
@@ -31,4 +31,4 @@ btnVoltar.addEventListener('click', function(){
             break
         }
     }
-})
+})*/
