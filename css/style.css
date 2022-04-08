@@ -68,6 +68,7 @@ main .principal {
   gap: 10px;
 }
 main .principal .name {
+  animation: irAcima 2s infinite;
   grid-area: text;
   display: flex;
   flex-direction: column;
@@ -170,6 +171,9 @@ main .tech .box .box__tech img {
   width: 100px;
   padding-right: 20px;
 }
+main .tech .box .box__tech img:hover {
+  animation: irAcima 2s infinite;
+}
 main .tech .box .html {
   grid-area: html;
 }
@@ -224,7 +228,7 @@ main .projeto .box-projeto .container {
   margin-top: 30px;
   height: 1fr;
   padding: 10px;
-  width: 70%;
+  width: 90%;
 }
 main .projeto .box-projeto .container a {
   display: flex;
@@ -242,7 +246,7 @@ main .projeto .box-projeto .container img:hover {
   animation: opacidade 2s infinite;
 }
 main .projeto .box-projeto .box {
-  background-color: #010440;
+  background-color: #020659;
   margin: 20px auto;
   border-radius: 10px;
   height: 100%;
@@ -255,6 +259,13 @@ main .projeto .box-projeto .box {
 main .projeto .box-projeto .box h2 {
   color: #F2D544;
   margin-top: 10px;
+  font-size: 2rem;
+}
+main .projeto .box-projeto .box p {
+  color: #F2D544;
+  margin: 10px;
+  text-align: justify;
+  width: fit-content;
 }
 
 footer {
@@ -309,6 +320,15 @@ footer {
   main .principal .name h1 {
     font-size: 3.5rem;
   }
+  main .projeto .box-projeto .container .box h2 {
+    font-size: 1rem;
+  }
+  main .projeto .box-projeto .container .box p {
+    padding: 10px;
+  }
+  main .tech .box {
+    width: 95%;
+  }
 }
 @keyframes corBackground {
   50% {
@@ -347,6 +367,11 @@ footer {
   }
   to {
     opacity: 1;
+  }
+}
+@keyframes irAcima {
+  50% {
+    transform: translateY(-5px);
   }
 }
 
