@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @font-face {
   font-family: "sansation-bold-italic";
   src: url(../sansation/Sansation_Bold_Italic.ttf);
@@ -19,6 +20,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: "Lato", sans-serif;
 }
 
 body {
@@ -51,7 +53,6 @@ header .menu ul {
 header .menu ul li a {
   text-decoration: none;
   color: #F2D544;
-  font-family: "sansation-bold-italic", "sans-serif";
   text-transform: uppercase;
 }
 header .menu ul li a:hover {
@@ -118,7 +119,6 @@ main .sobre h1 {
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "sansation-bold-italic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .sobre p {
@@ -127,7 +127,6 @@ main .sobre p {
   text-indent: 30px;
   word-spacing: 9px;
   line-height: 30px;
-  font-family: "sansation-regular", "sans-serif";
 }
 main .tech {
   background-image: url("../image/pc-livro.jpg");
@@ -136,14 +135,12 @@ main .tech {
   background-attachment: fixed;
   padding: 20px;
   color: #F2D544;
-  font-family: "sansation-bold-italic", "sans-serif";
 }
 main .tech h1 {
   padding-bottom: 10px;
   color: #F2D544;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "sansation-bold-italic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .tech h2 {
@@ -152,10 +149,10 @@ main .tech h2 {
 main .tech .box {
   width: 80%;
   margin: 20px auto;
-  display: grid;
-  grid-template-areas: "html css" "js sass";
-  grid-template-columns: 50% 50%;
-  grid-row: 1fr 1fr;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   background-color: rgba(0, 0, 0, 0.39);
   border-radius: 10px;
   box-sizing: border-box;
@@ -163,6 +160,7 @@ main .tech .box {
 }
 main .tech .box .box__tech {
   padding: 30px;
+  width: 40%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -174,33 +172,18 @@ main .tech .box .box__tech img {
 main .tech .box .box__tech img:hover {
   animation: irAcima 2s infinite;
 }
-main .tech .box .html {
-  grid-area: html;
-}
-main .tech .box .css {
-  grid-area: css;
-  border-left: 2px solid black;
-}
-main .tech .box .js {
-  grid-area: js;
-}
-main .tech .box .sass {
-  grid-area: sass;
-  border-left: 2px solid black;
-}
 main .projeto {
-  font-family: "sansation-bold-italic", "sans-serif";
   box-sizing: border-box;
   padding: 10px;
   background-color: white;
   border-radius: 8px;
+  height: 1fr;
 }
 main .projeto h1 {
   padding-bottom: 10px;
   color: #010440;
   text-indent: 10px;
   text-transform: uppercase;
-  font-family: "sansation-bold-italic", "sans-serif";
   border-bottom: 2px solid #F2D544;
 }
 main .projeto .caixa-icones {
@@ -218,18 +201,16 @@ main .projeto .caixa-icones .js {
 main .projeto .caixa-icones .sass {
   color: #F241A3;
 }
-main .projeto .box-projeto {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  height: 90%;
-}
 main .projeto .box-projeto .container {
   margin-top: 30px;
   height: 1fr;
   padding: 10px;
-  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  height: 90%;
 }
 main .projeto .box-projeto .container img {
   width: 80%;
@@ -242,8 +223,9 @@ main .projeto .box-projeto .box {
   margin: 20px auto;
   border-radius: 10px;
   padding: 10px;
-  height: 100%;
+  height: 450px;
   display: flex;
+  width: 600px;
   flex-direction: column;
   align-items: center;
   animation-name: slide;
@@ -274,7 +256,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: "sansation-light-italic", "sans-serif";
   font-size: 0.5rem;
 }
 
